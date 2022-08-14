@@ -1,0 +1,26 @@
+{
+  "name": "apinest",
+  "version": "1.0.0",
+  "description": "API Automation Test",
+  "main": "index.js",
+  "author": "oimtrust",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "link-module-alias": "^1.2.0",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3"
+  },
+  "scripts": {
+    "postinstall": "link-module-alias",
+    "preinstall": "command -v link-module-alias && link-module-alias clean || true",
+    "mocha:test": "mocha tests/scenarios --reporter-options reportDir=reports"
+  },
+  "_moduleAliases": {
+    "$root": "tests",
+    "$helper": "tests/helper"
+  }
+}

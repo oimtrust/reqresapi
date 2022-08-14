@@ -1,0 +1,8 @@
+{
+    "reporter": "mochawesome",
+    "recursive": true,
+    "timeout": 180000,
+    "node-option": ["es-module-specifier-resolution=node"],
+    "require": ["dotenv/config"]
+  }
+  

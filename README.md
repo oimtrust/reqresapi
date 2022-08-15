@@ -11,7 +11,8 @@ Chai is a BDD / TDD assertion library for node and the browser that can be delig
 ## Development Preparation
 
 ### Clone Repo
-Clone from https://github.com/oimtrust/reqresapi (choose `main` branch)
+- Clone from https://github.com/oimtrust/reqresapi (choose `main` branch)
+- Copy Environment File with command `cp .env.example .env` and setup the value of variable in env file
 
 ### Setup Node, NPM, Yarn
 For windows and mac user you can [download node](https://nodejs.org/en/) and install.

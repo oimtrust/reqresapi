@@ -6,3 +6,7 @@ export const VALID_REGISTER = {
 export const INVALID_REGISTER = {
     "email": "sydney@fife"
 }
+
+export const LIST_USER_PARAM = {
+    page: 2
+}
